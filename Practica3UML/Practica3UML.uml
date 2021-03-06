@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GFenQH1SEeu4xbMzgGYFxw" name="Practica3UML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_GPRccH1SEeu4xbMzgGYFxw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KndksH1SEeu4xbMzgGYFxw" name="Clase.ito.poo">
+    <packagedElement xmi:type="uml:Class" xmi:id="_XvgZAH1SEeu4xbMzgGYFxw" name="Zapateria">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gK5Q8H1SEeu4xbMzgGYFxw" name="Clave" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sqm58H1SEeu4xbMzgGYFxw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_srMIwH1SEeu4xbMzgGYFxw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vtfcIH1SEeu4xbMzgGYFxw" name="Material" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yVtbkH1SEeu4xbMzgGYFxw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yWBkoH1SEeu4xbMzgGYFxw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3jnD0H1SEeu4xbMzgGYFxw" name="Troquel" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6HTvoH1SEeu4xbMzgGYFxw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6HofwH1SEeu4xbMzgGYFxw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-I-OQH1SEeu4xbMzgGYFxw" name="CantProdxDia" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BAE-QH1TEeu4xbMzgGYFxw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BAWrEH1TEeu4xbMzgGYFxw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_H08kUH1TEeu4xbMzgGYFxw" name="Colores" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J7xG4H1TEeu4xbMzgGYFxw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J8CzsH1TEeu4xbMzgGYFxw" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VBjIgH1TEeu4xbMzgGYFxw" name="CostoxLote(in CostUnida: float)"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
